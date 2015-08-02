@@ -1,0 +1,13 @@
+spring :
+     jmx:
+           enabled: false
+
+
+userregistration:
+  jdbc : 
+    datasource:
+            driver-class-name: com.informix.jdbc.IfxDriver
+            url: jdbc:informix-sqli://phdevu26.vsx.com:3263/sandbox:informixServer=dev03_01
+            username: userAdmin
+            password: SeshYRN4
+
